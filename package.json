@@ -3,9 +3,8 @@
   "version": "0.0.9",
   "description": "Convert swagger to typescript.(Base on swagger-typescript-api and compatible with swagger2.0)",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "gen:api": "ts-node index.ts"
+    "gen:api": "node index.js"
   },
   "repository": {
     "type": "git",
